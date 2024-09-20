@@ -1,0 +1,58 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    color: #006EB6;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    line-height: 1.6;
+}
+
+p, .does-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.does-list {
+    list-style-position: outside;
+    padding-left: 40px;
+}
+
+.does-list li {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
