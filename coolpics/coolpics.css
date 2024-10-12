@@ -90,6 +90,32 @@ footer {
   padding: 10px 0;
 }
 
+
+.hide {
+  display: none;
+}
+
+
+.viewer {
+  position: fixed;
+  top: 50px; 
+  left: 50px; 
+  right: 50px; 
+  bottom: 50px; 
+  background-color: rgba(0, 0, 0, 0.75);
+  display: grid;
+  place-items: center;
+  z-index: 10;
+  border-radius: 8px; 
+}
+
+.viewer img {
+  max-height: 90%; 
+  max-width: 90%; 
+  object-fit: contain; 
+}
+
+
 @media screen and (max-width: 1000px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
@@ -105,16 +131,16 @@ footer {
 
   .nav-links {
     display: flex;
-    flex-direction: column; /* Stack the links vertically */
+    flex-direction: column;
     gap: 10px;
-    margin-top: 20px; /* Add space between menu and links */
+    margin-top: 20px;
   }
 
   .nav-links a {
-    margin: 0; /* Remove side margin for stacked links */
+    margin: 0;
   }
 
   .menu-button {
-    display: block; /* Display the menu button for small screens if needed */
+    display: block;
   }
 }
